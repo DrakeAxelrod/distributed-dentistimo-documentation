@@ -1,9 +1,28 @@
 # Team 16 Project Documentation
 ## **Abstract** System Design
 
-![Abstract conceptualization of the system](./images/abstract-design.png)
+![Abstract conceptualization of the system](./diagrams/abstract-design.png)
 
 ## Management details
+
+## Developers <a name="developers"></a>
+
+- [Drake Axelrod](https://git.chalmers.se/axelrod)
+- [](https://git.chalmers.se/)
+- [](https://git.chalmers.se/)
+- [](https://git.chalmers.se/)
+- [](https://git.chalmers.se/)
+- [](https://git.chalmers.se/)
+
+## Team Resouces <a name="team resources"></a>
+
+- [Trello]()
+- [Discord]()
+- [Gitlab]()
+- [system component]()
+- [system component]()
+- [system component]()
+- [system component]()
 
 
 ## Subsystem #1
@@ -13,7 +32,9 @@
     - sub point
 - something about it
 
-### user stories / requirements
+[Requirements](./subdocs/Requirements.md)
+
+[Team Contract](./subdocs/TeamContract.md)
 ## Subsystem #1
 
 - something about it
