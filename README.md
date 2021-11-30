@@ -8,16 +8,16 @@
 ## Developers <a name="developers"></a>
 
 - [Drake Axelrod](https://git.chalmers.se/axelrod)
-- [](https://git.chalmers.se/)
-- [](https://git.chalmers.se/)
-- [](https://git.chalmers.se/)
-- [](https://git.chalmers.se/)
-- [](https://git.chalmers.se/)
+- [Christofer Jidarv](https://git.chalmers.se/Jidarv)
+- [Simon Arvidsson](https://git.chalmers.se/simonar)
+- [Klara Svensson](https://git.chalmers.se/klarasve)
+- [Robin Hansen](https://git.chalmers.se/robinhan)
+- [Johan Axell](https://git.chalmers.se/johanaxe)
 
 ## Team Resouces <a name="team resources"></a>
 
-- [Trello]()
-- [Discord]()
+- [Trello](https://trello.com/b/Supm1hiE/dit355-group-16)
+- [Discord](https://discord.gg/Xd6E9Nr2qP)
 - [Gitlab]()
 - [system component]()
 - [system component]()
