@@ -150,8 +150,6 @@ In 4.2, the checking and verifying of user credentials are performed by passport
     * User account created with POST
     * User account adhere to schema
 
-## Subsystem #5
+## Architecural drivers
 
-[Requirements](./subdocs/Requirements.md)
-
-[Team Contract](./subdocs/TeamContract.md)
+## Architecural styles
