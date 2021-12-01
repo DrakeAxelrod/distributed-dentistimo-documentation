@@ -20,7 +20,7 @@
 - [Discord](https://discord.gg/Xd6E9Nr2qP)
 - [Gitlab]()
 - [Appointment manager](https://git.chalmers.se/courses/dit355/test-teams-formation/team-16/team-16-project-booker)
-- [Authenticator](https://git.chalmers.se/courses/dit355/test-teams-formation/team-16/team-16-project-authentication)
+- [User manager](https://git.chalmers.se/courses/dit355/test-teams-formation/team-16/team-16-project-authentication)
 - [Frontend](https://git.chalmers.se/courses/dit355/test-teams-formation/team-16/frontend)
 - [MQTT](https://git.chalmers.se/courses/dit355/test-teams-formation/team-16/team-16-project)
 - [Gateway](https://git.chalmers.se/courses/dit355/test-teams-formation/team-16/team-16-gateway)
@@ -41,6 +41,16 @@ Using this architecture style will facilitate our ability to be flexible, while 
 
 ### user stories / requirements
 
+2.1 Should log all requests:
+    * A logger will be implemented to mainly provide another way to troubleshoot while also giving  an extra perspective in regards to performance.
+2.2 Uses its own database:
+    * Promote modularity and further increase decoupling
+2.3 Must be able to receive data from frontend:
+    * As described above, the broker will be the middleman between the front- and the backend. It will track which subsystem is subscribed to what topic and so on.  
+2.4 Generate backend requests from frontend request:
+    * As soon as the front end publishes, eventually the backend should do the same to provide the requested resource back to where it was originally requested.
+2.5 Must be able to send the backend request to the right subsystem:
+
 ## Appointment manager
 
 The appointment manager will handle booking requests from users. It will handle the available and booked appointments for dentist clinics, along with associated data, such as patient information. This subsystem will mostly act on-demand and will be used when a user requests to see the available appointments. The subsystem will collaborate with the user-manager in order to book appointments and verify users' that wish to book an appointment. 
@@ -55,7 +65,7 @@ Frontend:
     * Basic routes
 
 
-## user-manager
+## User-manager
 
 
 One part of the system will be handled by the user-manager. Said user-manager will handle the authentication and similar responsibilites related to user activities.
