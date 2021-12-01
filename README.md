@@ -42,15 +42,19 @@ Using this architecture style will facilitate our ability to be flexible, while 
 ### user stories / requirements
 
 2.1 Should log all requests:
+
     * A logger will be implemented to mainly provide another way to troubleshoot while also giving  an extra perspective in regards to performance.
 
 2.2 Uses its own database:
+
     * Promote modularity and further increase decoupling
 
 2.3 Must be able to receive data from frontend:
+
     * As described above, the broker will be the middleman between the front- and the backend. It will track which subsystem is subscribed to what topic and so on.  
 
 2.4 Generate backend requests from frontend request:
+
     * As soon as the front end publishes, eventually the backend should do the same to provide the requested resource back to where it was originally requested.
     
 2.5 Must be able to send the backend request to the right subsystem:
