@@ -26,13 +26,32 @@
 - [Gateway](https://git.chalmers.se/courses/dit355/test-teams-formation/team-16/team-16-gateway)
 
 
-## Subsystem #1
+## Frontend
 
-- something about it
-    - subpoint
-    - sub point
-- something about it
+Our goal is to create an accessible and intuitive interface with functionality described below. It will support communication over the MQTT using protocoll using websockets. This will enable duplex and asynchronous communication with the the server while also removing the need to update the webpage in order to show an up-to-date visualisation of the current time slots available to the user. **should probably write something more here**
+
 ### user stories / requirements
+
+1.1 Homepage:
+    * The Homepage will mainly consist of a Map showing the different clinics while also providing options to login and register as a new user.
+
+1.2 Map:
+    * Should display the available clinics
+        - When clinic icon is clicked, will show a card with information regarding the chosen clinic
+
+1.3 Booking page:
+    * Showing available and unavailable time slots
+
+1.4  User account:
+    * A user should be able to
+        - Sign up
+        - Sign in
+        - Log out
+
+1.5  Profile:
+    * The profile page will provide the following:
+        - Options to update user information
+        - View current and past bookings
 
 ## MQTT
 
