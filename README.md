@@ -150,6 +150,25 @@ In 4.2, the checking and verifying of user credentials are performed by passport
     * User account created with POST
     * User account adhere to schema
 
-## Architecural drivers
+## Architectural drivers
+
+### MQTT
+One of our drivers are that we include MQTT and how we decided to design the implementation of it in our project. In our planned design, we decided to combine MQTT and the gateway broker into one unit, and thus can have them work together to fulfill their tasks. Considering that separating them would result in two smaller units, and likely also convolute the implementation of the communication between all units, including both of the respective units. As previously mentioned, we therefore decided to have them combined into one unit.
+Due to the requirement to have at least four (4) independent systems, it can also be considered a constraint for us to combine them into one unit, and thus avoid having a system with few tasks and responsibilities.
+
+### Programming languages
+
+Our choice to use TypeScript for our frontend, can be consider as a constraint of our project. TypeScript happens to be relatively similar to JavaScript, which we have experience from a previous course, which makes the development phase less stressful, and less error-prone. In order to minimize the potential risks followed by being less experienced with a programming language, we decided to use TypeScript, which shares a lot of syntax from JavaScript.
+
+We have also decided to use React, as well as Express. These programming languages are easy to learn, and contain plenty of functionality that we may use throughout the development phase.
+
+### Choice of Databases
+
+We have chosen to use MongoDB Atlas for our databases, which provides a simple, yet effective alternative to hosting our own databases. We also believe that MongoDB Atlas is reliable, and have experience using their service in a previous course, which results in less confusion on how it works and how it is involved in the development phase.
+This does however require an internet connection, but due to the widespread use of the internet, along with little data consumption, it happens to be a constraint we as a group are acceptable with.
+
+
+
+
 
 ## Architecural styles
