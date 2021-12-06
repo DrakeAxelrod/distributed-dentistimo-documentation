@@ -54,18 +54,12 @@
 > I hereby have read the team contract and agree to abide by its terms. If I fail to do so then I understand the group has the right to inform the instructor of my behavior which may result in my permanent removal from the team.
 
 ### Signatures
+--
 
-<div style="width:400px"><hr/></div>
+***Drake Axelrod***
 
-- <a href="https://github.com/DrakeAxelrod"
-style="color: #c678dd; text-decoration: none; text-shadow: 2px 2px 5px black; font-style: italic;">
-Drake Axelrod
-</a>
+***Johan Axell***
 
-- <a href="https://github.com/DrakeAxelrod"
-style="color: #c678dd; text-decoration: none; text-shadow: 2px 2px 5px black; font-style: italic;">
-Johan Axell
-</a>
 
 ### Footer
 
