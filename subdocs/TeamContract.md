@@ -54,7 +54,8 @@
 > I hereby have read the team contract and agree to abide by its terms. If I fail to do so then I understand the group has the right to inform the instructor of my behavior which may result in my permanent removal from the team.
 
 ### Signatures
---
+
+---
 
 ***Drake Axelrod***
 
