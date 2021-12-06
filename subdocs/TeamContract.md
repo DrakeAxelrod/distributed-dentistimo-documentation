@@ -1,8 +1,8 @@
-# <center>Team 16</center>
+# Team 16 {align=center}
 
-## <center>Team Agreement</center>
+## Team Agreement {align=center}
 
-### <center>template found at resource[^1]</center>
+### template found at resource[^1] {align=center}
 
 ## 1. Team Mission
 
@@ -61,6 +61,7 @@
 style="color: #c678dd; text-decoration: none; text-shadow: 2px 2px 5px black; font-style: italic;">
 Drake Axelrod
 </a>
+
 - <a href="https://github.com/DrakeAxelrod"
 style="color: #c678dd; text-decoration: none; text-shadow: 2px 2px 5px black; font-style: italic;">
 Johan Axell
