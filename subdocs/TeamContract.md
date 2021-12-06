@@ -2,7 +2,7 @@
 
 ## Team Agreement
 
-### template found at resource[^1]
+### template[^1]
 
 ## 1. Team Mission
 
@@ -63,7 +63,5 @@
 
 
 ### Footer
-
-<div style="width:400px"><hr/></div>
 
 [^1]: https://studylib.net/doc/9404654/sample-agreement
