@@ -1,8 +1,8 @@
-# Team 16 {align=center}
+# Team 16
 
-## Team Agreement {align=center}
+## Team Agreement
 
-### template found at resource[^1] {align=center}
+### template found at resource[^1]
 
 ## 1. Team Mission
 
