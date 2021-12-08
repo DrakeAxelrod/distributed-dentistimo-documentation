@@ -61,6 +61,7 @@
 
 ***Johan Axell***
 
+***Klara Svensson***
 
 ### Footer
 ---
