@@ -1,8 +1,8 @@
-# <center>Team 16</center>
+# Team 16
 
-## <center>Team Agreement</center>
+## Team Agreement
 
-### <center>template found at resource[^1]</center>
+### template[^1]
 
 ## 1. Team Mission
 
@@ -55,19 +55,14 @@
 
 ### Signatures
 
-<div style="width:400px"><hr/></div>
+---
 
-- <a href="https://github.com/DrakeAxelrod"
-style="color: #c678dd; text-decoration: none; text-shadow: 2px 2px 5px black; font-style: italic;">
-Drake Axelrod
-</a>
-- <a href="https://github.com/DrakeAxelrod"
-style="color: #c678dd; text-decoration: none; text-shadow: 2px 2px 5px black; font-style: italic;">
-Johan Axell
-</a>
+***Drake Axelrod***
+
+***Johan Axell***
+
 
 ### Footer
-
-<div style="width:400px"><hr/></div>
+---
 
 [^1]: https://studylib.net/doc/9404654/sample-agreement
