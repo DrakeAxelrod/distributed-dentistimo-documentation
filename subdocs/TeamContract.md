@@ -67,6 +67,8 @@
 
 ***Christofer Jidarv***
 
+***Simon Arvidsson***
+
 ### Footer
 ---
 
