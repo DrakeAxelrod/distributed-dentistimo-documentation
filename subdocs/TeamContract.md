@@ -65,6 +65,8 @@
 
 ***Robin Hansen***
 
+***Christofer Jidarv***
+
 ### Footer
 ---
 
