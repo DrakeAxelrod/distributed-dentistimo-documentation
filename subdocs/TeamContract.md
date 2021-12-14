@@ -69,6 +69,8 @@
 
 ***Simon Arvidsson***
 
+***Asiya Ismail***
+
 ### Footer
 ---
 
