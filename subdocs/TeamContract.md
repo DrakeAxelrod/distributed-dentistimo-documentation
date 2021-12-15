@@ -61,6 +61,15 @@
 
 ***Johan Axell***
 
+***Klara Svensson***
+
+***Robin Hansen***
+
+***Christofer Jidarv***
+
+***Simon Arvidsson***
+
+***Asiya Ismail***
 
 ### Footer
 ---

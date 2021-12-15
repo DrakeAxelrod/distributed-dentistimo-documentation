@@ -5,7 +5,7 @@
 ![Abstract conceptualization of the system](./diagrams/abstract-design.png)
 
 ## Management details
-
+- [Team Contract](./subdocs/TeamContract.md)
 ## Developers <a name="developers"></a>
 
 - [Drake Axelrod](https://git.chalmers.se/axelrod)
