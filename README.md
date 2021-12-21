@@ -4,6 +4,14 @@
 
 ![Abstract conceptualization of the system](./diagrams/abstract-design.png)
 
+## Component Diagram
+
+![Component Diagram](./diagrams/component-diagram.png)
+
+## Functional Decomposition Diagram
+
+![Functional Decomposition Diagram](./diagrams/FunctionalDecomposition.png)
+
 ## Management details
 - [Team Contract](./subdocs/TeamContract.md)
 ## Developers <a name="developers"></a>
