@@ -22,8 +22,9 @@
 - [Klara Svensson](https://git.chalmers.se/klarasve)
 - [Robin Hansen](https://git.chalmers.se/robinhan)
 - [Johan Axell](https://git.chalmers.se/johanaxe)
+- [Asiya Ismail](https://git.chalmers.se/asiya)
 
-## Team Resouces <a name="team resources"></a>
+## Team Resources <a name="team resources"></a>
 
 - [Trello](https://trello.com/b/Supm1hiE/dit355-group-16)
 - [Discord](https://discord.gg/Xd6E9Nr2qP)
@@ -36,7 +37,7 @@
 
 ## Frontend
 
-Our goal is to create an accessible and intuitive interface with functionality described below. It will support communication over the MQTT using protocoll using websockets. This will enable duplex and asynchronous communication with the the server while also removing the need to update the webpage in order to show an up-to-date visualisation of the current time slots available to the user. **should probably write something more here**
+Our goal is to create an accessible and intuitive interface with functionality described below. It will support communication over the MQTT using protocol using websockets. This will enable duplex and asynchronous communication with the server while also removing the need to update the webpage in order to show an up-to-date visualisation of the current time slots available to the user. **should probably write something more here**
 
 ### user stories / requirements
 
