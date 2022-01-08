@@ -1,8 +1,6 @@
 # <center>Team 16</center>
 
-## <center>Architecture, styles and tactics</center>
-
-### <center>Conceptual design</center>
+## <center>Lessons learned & Conclusion</center>
 
 ## Important learning experiences
 
