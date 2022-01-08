@@ -15,3 +15,13 @@ During the planning phase of this project, we decided upon running 1-week sprint
 </br>
 
 ### <center>Architectural Significant Requirement</center>
+
+The following Architectural Significant Requirements have been discovered:
+
+1. The system shall be divided into different subsystems.
+2. Each subsystem shall only handle information that is relevant to the use case.
+3. The system shall have a circuit breaker to remedy excessive traffic.
+4. The system shall encrypt confidential user information.
+5. The system must allow appointment booking in those cases where an available date and time slot have been chosen, and where the user is logged in.
+6. The system shall allow users to connect and use the system from any relevant device(computer, smartphone, tablet).
+7. The system shall allow users to connect and use the system from any relevant operating system.

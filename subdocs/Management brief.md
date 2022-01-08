@@ -37,3 +37,11 @@ Even though Scrum is more of a framework for agile than an actual practice, we c
   Sprint reviews are also usually done on wednesdays, before the sprint planning for the upcoming sprint. Here we evaluate the result from the last sprint in regards to the product.
 - Sprint retrospective  
   In our case we bundle this together with the Sprint review. Here the main goal is to evaluate in regards to the process. The main goal is to develop and enhance our way of working while focusing on the quality and efficiency of the different processes.
+
+### <center>Management decisions</center>
+
+- Before starting the second sprint, the team decided on changing the sprint length to one rather than two weeks as we had prior. Amongst other things, This meant that we had twice as many planning- retrospect and review sessions. We decided to due to this primarily to improve our ability to adapt to changes or unforeseen issues, while also facilitate communication.
+
+- Another thing we decided on quite early was to not rotate roles during the project. Even though we had a product owner and a Scrum master and they had a more general responsibility related to their roles, the team was always very involved in most aspects regarding this so we didn't feel like rotating roles would benefit us much in this case.
+
+- We decided on having both the sprint review, sprint retrospect and sprint planning on the same day each week, mainly this would make the planning for the upcoming sprint easier and this would also allow us for focusing more on development with less interruptions during the rest of the sprint.
