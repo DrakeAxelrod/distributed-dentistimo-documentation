@@ -11,3 +11,8 @@
 
 
 ### <center>Conceptual design mapping</center>
+
+Our system consists of a frontend and backend subsystems, in which requests to and from the subsystems is sent over MQTT
+using a publish/subscribe to transfer the data, and gets filtered through a gateway. 
+Once the required filtering and processing has occurred, the subsystem that requested data to be process will
+handle the data. 
