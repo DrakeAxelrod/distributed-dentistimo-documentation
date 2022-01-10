@@ -46,51 +46,39 @@
 
 ## Frontend
 
-Our goal is to create an accessible and intuitive interface with functionality described below. It will support communication over the MQTT using protocol using websockets. This will enable duplex and asynchronous communication with the server while also removing the need to update the webpage in order to show an up-to-date visualisation of the current time slots available to the user. **should probably write something more here**
+Our goal is to create an accessible and intuitive interface with functionality described below. It will support communication over the MQTT using protocol using websockets. This will enable duplex and asynchronous communication with the server while also removing the need to update the webpage in order to show an up-to-date visualisation of the current time slots available to the user.
 
-### user stories / requirements
+### Requirements
 
-1.1 Homepage: \* The Homepage will mainly consist of a Map showing the different clinics while also providing options to login and register as a new user.
+1.1 Homepage: The Homepage will mainly consist of a Map showing the different clinics while also providing options to login and register as a new user.
 
-1.2 Map: \* Should display the available clinics - When clinic icon is clicked, will show a card with information regarding the chosen clinic
+1.2 Map: Should display the available clinics
 
-1.3 Booking page: \* Showing available and unavailable time slots
+1.3 Booking page: Showing available and unavailable time slots
 
-1.4 User account: \* A user should be able to - Sign up - Sign in - Log out
+1.4 User account: The system shall allow for user login, sign up and sign out. 
 
-1.5 Profile: \* The profile page will provide the following: - Options to update user information - View current and past bookings
-
-## MQTT
+## Gateway and broker
 
 - We will be using MQTT as our network protocol. This will enable usage of a publish/subscribe model in order to transfer resources between different units. This transmission is utilizing our broker as a middleman to send and receive messages between the different subsystems. These messages are not sent to a specific receiver, instead they are tagged with a topic and a message, and only the subsystems interested, subscribed, to this specific topic will be receiving them.
-  Using this architecture style will facilitate our ability to be flexible, while also allowing for greater scalability. This is partly because the publish/subscribe model is asynchronous, but also because we are able to add or remove subscribers without much extra programming being needed.
+  Using this architecture style will facilitate our ability to be flexible, while also allowing for greater scalability. This is partly because the publish/subscribe model is asynchronous, but also because we are able to add or remove subscribers without having to do much extra programming. 
 
-### user stories / requirements
+### Requirements
 
 2.1 Should log all requests:  
 A logger will be implemented to mainly provide another way to troubleshoot while also giving an extra perspective in regards to performance.
 
-2.2 Uses its own database:  
-Promote modularity and further increase decoupling
-
-2.3 Must be able to receive data from frontend:  
+2.2 Must be able to receive data from frontend:  
 As described above, the broker will be the middleman between the front- and the backend. It will track which subsystem is subscribed to what topic and so on.
 
-2.4 Generate backend requests from frontend request:  
+2.3 Generate backend requests from frontend request:  
 As soon as the front end publishes, eventually the backend should do the same to provide the requested resource back to where it was originally requested.
 
-2.5 Must be able to send the backend request to the right subsystem:
+2.4 Must be able to send the backend request to the right subsystem
 
 ## Appointment manager
 
 The appointment manager will handle booking requests from users. It will handle the available and booked appointments for dentist clinics, along with associated data, such as patient information. This subsystem will mostly act on-demand and will be used when a user requests to see the available appointments. The subsystem will collaborate with the user-manager in order to book appointments and verify users' that wish to book an appointment.
-
-### user stories / requirements
-
-Frontend:
-3.4 Booker database:
-_ Create MongoDB database
-_ The appointment object in the database should follow the schema \* Basic routes
 
 ## User-manager
 
@@ -98,32 +86,30 @@ One part of the system will be handled by the user-manager. Said user-manager wi
 The user-manager will be used in collaboration with other subsystems to perform tasks, although this subsystem will be limited to its abilities and responsibilities.
 
 The user manager handles the basic activities of users:
-_ Login
-_ Register
-_ Logout
-_ Authentication when requested \* Retrieving user information when requested
+Login
+Register
+Logout
+Authentication when requested and retrieving user information when requested
 
 The login feature is performed by a local check from the user-manager subsystem.
 The user authentication is stored in a middleware called Redux, and allows for efficient user authentication.
 
-### user stories / requirements
+### Requirements
 
 4.1 User Database:
-_Create MongoDB database
-_ The user object in the database should follow the user schema
-_The user schema should contain the following(with the possibility to add further things): - id (autogenerated/created manually) - email/username - password
-_ Basic routes: - login - register - logout - get user by id - get all users - filter on email/name
+Create MongoDB database
+The user object in the database should follow the user schema
+The user schema should contain the following(with the possibility to add further things): - id (autogenerated/created manually) - email/username - password
 
 In 4.1, we create a MongoDB database through Atlas, which primarily provides simplicity and reliability, due to us being able to share database servers and only require a connection string to connect and use the database.
 
 4.2 User Authentication Upon Request:
-_Check and verify user's credentials (when user is logging in): - email/username - password
-_ If no user account exists, return message to user and deny actions that requires an account.
+Check and verify user's credentials (when user is logging in): - email/username - password
+If no user account exists, return message to user and deny actions that requires an account.
 
 
 4.5 Create account:
-_User account created with POST
-_ User account adhere to schema
+User account adhere to schema
 
 ## Architectural drivers
 
