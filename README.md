@@ -1,5 +1,14 @@
 # Team 16 Project Documentation
 
+## Subdocuments
+
+- [Arcitecture, styles and tactics](https://git.chalmers.se/courses/dit355/test-teams-formation/team-16/team-16-project-documentation/-/blob/main/subdocs/Architecture,%20styles%20and%20tactics.md)
+- [Lessons learned & Conclusion](https://git.chalmers.se/courses/dit355/test-teams-formation/team-16/team-16-project-documentation/-/blob/main/subdocs/Lessons%20learned%20&%20Conclusion.md)
+- [Management brief](https://git.chalmers.se/courses/dit355/test-teams-formation/team-16/team-16-project-documentation/-/blob/main/subdocs/Management%20brief.md)
+- [Strategy & design decision](https://git.chalmers.se/courses/dit355/test-teams-formation/team-16/team-16-project-documentation/-/blob/main/subdocs/Strategy%20&%20design%20decision.md)
+- [TeamContract](https://git.chalmers.se/courses/dit355/test-teams-formation/team-16/team-16-project-documentation/-/blob/main/subdocs/TeamContract.md)
+
+
 ## **Abstract** System Design
 
 ![Abstract conceptualization of the system](./diagrams/abstract-design.png)
