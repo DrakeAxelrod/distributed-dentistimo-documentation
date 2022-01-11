@@ -4,7 +4,7 @@
 
 ### <center>Conceptual design</center>
 
-
+This system is a distributed system with a presentation layer that communicates with its subsystems via a broker and a gateway. The Gateway in question is used to act as both a type of validator and a filter for the data in the messages sent. Each subsystems are independent and have no coupling to one another which is the intention for the system to achieve easy scalability through modularization with the subsystem modules.
 
 ## Architectural styles
 
